@@ -1,0 +1,99 @@
+main {
+  margin: 32px 0px;
+}
+
+@media only screen and (max-width:600px) {
+  :root {
+    --black: #28282B;
+    --white: #FDFBF9;
+    --gunmetal: #2e3138;
+    --olive: #353b36;
+    --platinum: #eff1f2;
+    --navy: #011936;
+    --maroon: #701f18;
+    --grey: #B4B5B6;
+    --card-bg: #2a3b52;
+    --card-p: #b4d5e8;
+    --card-heading: #eff1f2;
+    --card-i: #e06a35;
+  }
+
+  main {
+    text-align: center;
+  }
+
+  #call_form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form-field {
+    margin: 8px 4px;
+  }
+
+  [list="call_options"] {
+    background-color: var(--white);
+    color: var(--gunmetal);
+    font-family: 'Mooli';
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    width: 300px;
+    padding: 4px;
+    margin: 8px 4px;
+    font-size: 12px;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width:601px) {
+  :root {
+    --black: #28282B;
+    --white: #FDFBF9;
+    --gunmetal: #2e3138;
+    --olive: #353b36;
+    --platinum: #eff1f2;
+    --navy: #011936;
+    --maroon: #701f18;
+    --grey: #B4B5B6;
+    --card-bg: #2a3b52;
+    --card-p: #b4d5e8;
+    --card-heading: #eff1f2;
+    --card-i: #e06a35;
+  }
+
+  main {
+    text-align: center;
+  }
+
+  .form-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form-container>input {
+    margin: 8px 4px;
+    width: 500px;
+    height: 40px;
+  }
+
+  [list="call_options"] {
+    background-color: var(--white);
+    color: var(--gunmetal);
+    font-family: 'Mooli';
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    width: 300px;
+    padding: 4px;
+    font-size: 12px;
+    align-items: center;
+  }
+
+}

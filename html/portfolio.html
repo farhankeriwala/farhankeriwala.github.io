@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Farhan</title>
+  <!-- Box Icons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/porfolio.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@700&family=Mooli&family=Nunito&family=Poppins&family=Raleway:wght@500&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="navbar">
+    <a href="/index.html"><img src="/images/nav_logo.png" id="nav_logo"></a>
+    <div class="nav-links">
+      <a href="/index.html" class="link">Home</a>
+      <a href="#services" class="link">Services</a>
+      <a href="#projects" class="link">Projects</a>
+    </div>
+  </header>
+  <main>
+    <section id="services" class="services">
+      <h1 class="heading">Services</h1>
+      <div class="service-container">
+        <div class="service-card" id="web_development">
+          <div>
+            <i class='bx bx-code'></i>
+            <h1 class="sm-heading">Web Development</h1>
+          </div>
+          <p class="text">Leveraging state-of-the-art technologies and professional coding to create robust, secure, and
+            fully customized
+            websites.</p>
+          <div>
+            <button class="service-btn" onclick="bookCall()">Book a Call</button>
+            <!-- <p class="text"><small>This service is available</small></p> -->
+          </div>
+        
+        </div>
+        <div class="service-card" id="uiux">
+          <div>
+            <i class='bx bxs-mobile'></i>
+            <h1 class="sm-heading">UI/UX Desgin</h1>
+          </div>
+          <p class="text">Create engaging digital experiences with our UI/UX design services. Our process ensures visually
+            appealing interfaces
+            that captivate users and enhance overall satisfaction.</p>
+          <div>
+            <button class="service-btn" onclick="bookCall()">Book a Call</button>
+            <!-- <p class="text"><strong>This service is currently unavailable</strong></p> -->
+          </div>
+        
+        </div>
+        <div class="service-card" id="seo">
+          <div>
+            <i class='bx bx-line-chart'></i>
+            <h1 class="sm-heading">SEO (Search Engine Optimisation)</h1>
+          </div>
+          <p class="text">Elevate your online visibility and drive organic traffic with our proven SEO strategies. From
+            keyword research to
+            analytics, we optimize your website for top search engine rankings.</p>
+          <div>
+            <button class="service-btn" onclick="bookCall()">Book a Call</button>
+            <!-- <p class="text"><strong>This service is currently unavailable</strong></p> -->
+          </div>
+        
+        </div>
+        <div class="service-card" id="consultation">
+          <div>
+            <i class='bx bxs-chat'></i>
+            <h1 class="sm-heading">Consultation</h1>
+          </div>
+          <p class="text">Boost your digital strategy with personalized consultation services. We analyze your goals and
+            challenges, providing
+            actionable insights for a successful online presence.</p>
+          <div>
+            <button class="service-btn" onclick="bookCall()">Book a Call</button>
+            <!-- <p class="text"><small>This service is available</small></p> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h1 class="heading">Projects</h1>
+      <div class="project-card">
+        <i class='bx bx-code-block'></i>
+        <h1 class="sm-heading">Personal Portfolio - 2023</h1>
+        <p class="text">Initially a university web development project, my personal portfolio now highlights my main projects
+          and skills. Beyond
+          the coursework, I've expanded my expertise by mastering frameworks and backend languages like Python and Java. This
+          showcases my commitment to ongoing learning and staying current in web development.</p>
+        <button onclick="githubPortfolio()">Go to GitHub</button>
+      </div>
+      <div class="project-card">
+        <i class='bx bx-lock-alt'></i>
+        <h1 class="sm-heading">Encryption Application - 2022</h1>
+        <p class="text">For my A Level project, I designed an encryption application using the ROT-13 algorithm, incorporating a secure database
+        for password and access code storage. I also implemented a reversing algorithm for seamless data retrieval in its
+        original format.</p>
+      </div>
+      <!-- <div class="project-card">
+        <i class='bx bx-code-curly'></i>
+        <h1 class="sm-heading">Project 3</h1>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas laborum eveniet cupiditate
+          architecto
+          ducimus blanditiis suscipit consequuntur officiis aperiam autem.</p>
+          <button onclick="goGithub()">Go to GitHub</button>
+      </div> -->
+    </section>
+  </main>
+  <footer>
+    <div class="footer-top">
+      <img src="/images/nav_logo.png" id="footer_logo">
+      <!-- Footer Social Links -->
+      <div class="footer-social-links">
+        <a href="https://www.linkedin.com/in/farhankeriwala/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        <a href="#https://instagram.com/farhan.keriwala/" target="_blank"><i class='bx bxl-instagram'></i></a>
+        <a href="#https://www.facebook.com/farhan.g.keriwala/" target="_blank"><i class='bx bxl-facebook'></i></a>
+        <a href="https://github.com/farhankeriwala" target="_blank"><i class='bx bxl-github'></i></a>
+      </div>
+    </div>
+    <!-- Footer Policies -->
+    <div class="footer-policies">
+      <p class="text footer-text">© 2023 Farhan Keriwala - All Rights Reserved</p>
+      <a href="/html/privicy_policy.html" class="link footer-link">Privicy Policy</a>
+      <a href="/html/terms_of_service.html" class="link footer-link">Terms of Service</a>
+    </div>
+  </footer>
+  <!-- JavaScript Script -->
+  <script src="/js/script.js" defer></script>
+</body>
+
+</html>

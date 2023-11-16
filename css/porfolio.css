@@ -1,0 +1,153 @@
+@media only screen and (max-width:600px) {
+  :root {
+    --black: #28282B;
+    --white: #FDFBF9;
+    --gunmetal: #2e3138;
+    --olive: #353b36;
+    --platinum: #eff1f2;
+    --navy: #011936;
+    --maroon: #701f18;
+    --grey: #B4B5B6;
+    --card-bg: #2a3b52;
+    --card-p: #b4d5e8;
+    --card-heading: #eff1f2;
+    --card-i: #e06a35;
+  }
+
+  .services,
+  .projects {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .service-card,
+  .project-card {
+    background-color: var(--card-bg);
+    border-radius: 10px;
+    margin: 16px 0px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 15px 0px var(--card-bg);
+  }
+
+  .service-card h1,
+  .project-card h1 {
+    color: var(--card-heading);
+  }
+
+  .service-card i,
+  .project-card i {
+    color: var(--card-i);
+    font-size: 40px;
+  }
+
+  .service-card i:hover,
+  .project-card i:hover {
+    color: var(--card-i);
+  }
+
+  .service-card p,
+  .project-card p {
+    color: var(--card-p);
+  }
+
+  .service-card button,
+  .project-card button {
+    background-color: #ca5f30;
+    color: var(--navy);
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+    /* Change when fully implemented */
+  }
+
+  .service-card button:hover {
+    background-color: var(--card-i);
+    ;
+  }
+}
+
+
+@media only screen and (min-width: 601px) {
+  body {}
+
+  :root {
+    --black: #28282B;
+    --white: #FDFBF9;
+    --gunmetal: #2e3138;
+    --olive: #353b36;
+    --platinum: #eff1f2;
+    --navy: #011936;
+    --maroon: #701f18;
+    --grey: #B4B5B6;
+    --card-bg: #2a3b52;
+    --card-p: #b4d5e8;
+    --card-heading: #eff1f2;
+    --card-i: #e06a35;
+  }
+
+  .service-container,
+  .project-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 16px;
+  }
+
+  .service-card,
+  .project-card {
+    background-color: var(--card-bg);
+    border-radius: 10px;
+    margin: 16px 0px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 0px 15px 0px var(--card-bg);
+    text-align: center;
+  }
+
+  .service-card h1,
+  .project-card h1 {
+    color: var(--card-heading);
+  }
+
+  .service-card i,
+  .project-card i {
+    color: var(--card-i);
+    font-size: 64px;
+  }
+
+  .service-card i:hover,
+  .project-card i:hover {
+    color: var(--card-i);
+  }
+
+  .service-card p,
+  .project-card p {
+    color: var(--card-p);
+  }
+
+  .service-card button,
+  .project-card button {
+    background-color: #ca5f30;
+    color: var(--navy);
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+    /* Change when fully implemented */
+  }
+
+  .service-card button:hover {
+    background-color: var(--card-i);
+    ;
+  }
+}
