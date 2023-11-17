@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = "Name: $name\nPhone: $phone\nEmail: $email\nMessage:\n$message";
 
     if (mail($to, $subject, $message, $headers)) {
-        echo "Your message has been sent successfully.";
+        header("Location: ..//html/thank_you.html");
     } else {
         echo "Error: Unable to send the message.";
     }

@@ -145,3 +145,7 @@ function handleInput(e) {
   e.target.placeholder = `Search ${value} here`;
   e.target.value = "";
 }
+
+function thankyou() {
+  window.location.href = "..//html/thank_you.html";
+}
