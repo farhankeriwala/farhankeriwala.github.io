@@ -64,54 +64,6 @@
     display: flex;
     flex-direction: column;
   }
-
-  /* Languages */
-  .languages-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-  }
-
-  .language-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--card-bg);
-    box-shadow: 0px 0px 15px 0px var(--card-bg);
-    border-radius: 16px;
-    padding: 16px;
-    width: 350px;
-  }
-
-  .language-card h1 {
-    color: var(--card-heading);
-  }
-
-  .lang-text {
-    color: var(--card-p);
-  }
-
-  .lang-wrapper {
-    display: flex;
-    place-items: center;
-    justify-content: space-between;
-    gap: 32px;
-    width: 100%;
-    padding: 0px 32px;
-  }
-
-  .lang-wrapper i {
-    color: var(--card-i);
-    font-size: 44px;
-  }
-
-  .lang-wrapper i:hover {
-    color: var(--card-i);
-  }
-
-
   /* Contact */
   .contact {
     display: flex;
@@ -215,60 +167,9 @@
     display: flex;
     flex-direction: column;
   }
-
   .about p {
     font-size: 20px;
   }
-
-  /* Languages */
-  .languages-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 32px;
-  }
-
-  .language-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--card-bg);
-    box-shadow: 0px 0px 15px 0px var(--card-bg);
-    border-radius: 16px;
-    padding: 16px;
-    width: 350px;
-    height: 400px;
-  }
-
-  .language-card h1 {
-    color: var(--card-heading);
-  }
-
-  .lang-text {
-    color: var(--card-p);
-  }
-
-  .lang-wrapper {
-    display: flex;
-    place-items: center;
-    justify-content: space-between;
-    gap: 32px;
-    width: 100%;
-    padding: 0px 32px;
-  }
-
-  .lang-wrapper i {
-    color: var(--card-i);
-    font-size: 44px;
-  }
-
-  .lang-wrapper i:hover {
-    color: var(--card-i);
-  }
-
-
   /* Contact */
   .contact-container {
     display: flex;
@@ -372,65 +273,14 @@
   }
 
   main {}
-
   /* About */
   .about {
     display: flex;
     flex-direction: column;
   }
-
   .about p {
     font-size: 25px;
   }
-
-  /* Languages */
-  .languages-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 16px;
-  }
-
-  .language-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--card-bg);
-    box-shadow: 0px 0px 15px 0px var(--card-bg);
-    border-radius: 16px;
-    padding: 16px;
-    width: 350px;
-    height: 400px;
-  }
-
-  .language-card h1 {
-    color: var(--card-heading);
-  }
-
-  .lang-text {
-    color: var(--card-p);
-  }
-
-  .lang-wrapper {
-    display: flex;
-    place-items: center;
-    justify-content: space-between;
-    gap: 32px;
-    width: 100%;
-    padding: 0px 32px;
-  }
-
-  .lang-wrapper i {
-    color: var(--card-i);
-    font-size: 44px;
-  }
-
-  .lang-wrapper i:hover {
-    color: var(--card-i);
-  }
-
   /* Contact */
   .contact-container {
     display: flex;
