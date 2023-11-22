@@ -17,6 +17,7 @@
   .hero {
     margin: 16px 0px;
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     gap: 32px;
     justify-content: space-between;
@@ -28,7 +29,7 @@
   }
 
   .hero-txt {
-    text-align: right;
+    text-align: left;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -55,6 +56,15 @@
     padding: 0;
   }
 
+  #hero_txt_4 {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: var(--card-i);
+    font-size: 16px;
+    font-weight: 550;
+    padding: 0;
+    margin: 16px 0px;
+  }
+
   main {
     text-align: center;
   }
@@ -64,6 +74,7 @@
     display: flex;
     flex-direction: column;
   }
+
   /* Contact */
   .contact {
     display: flex;
@@ -160,6 +171,15 @@
     padding: 0;
   }
 
+  #hero_txt_4 {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: var(--card-i);
+    font-size: 18px;
+    font-weight: 550;
+    padding: 0;
+    margin: 16px 0px;
+  }
+
   main {}
 
   /* About */
@@ -167,9 +187,11 @@
     display: flex;
     flex-direction: column;
   }
+
   .about p {
     font-size: 20px;
   }
+
   /* Contact */
   .contact-container {
     display: flex;
@@ -272,15 +294,27 @@
     padding: 0;
   }
 
+  #hero_txt_4 {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: var(--card-i);
+    font-size: 25px;
+    font-weight: 550;
+    padding: 0;
+    margin: 16px 0px;
+  }
+
   main {}
+
   /* About */
   .about {
     display: flex;
     flex-direction: column;
   }
+
   .about p {
     font-size: 25px;
   }
+
   /* Contact */
   .contact-container {
     display: flex;
