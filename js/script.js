@@ -103,7 +103,7 @@ document.querySelectorAll('a[href^="#projects"]').forEach((anchor) => {
 });
 // Type writing animation for hero section
 const textElement = document.getElementById("hero_txt_2");
-const textToType = "I'm Farhan Keriwala"; // The text you want to animate
+const textToType = "I'm Farhan"; // The text you want to animate
 let index = 0;
 
 function typeText() {
