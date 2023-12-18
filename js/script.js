@@ -135,7 +135,9 @@ function githubPortfolio() {
   window.location.href =
     "https://github.com/farhankeriwala/farhankeriwala.github.io";
 }
-
+function reactWebAppGithub() {
+  window.location.href = "https://github.com/farhankeriwala/weather-app";
+}
 const call_options_input = document.querySelector("#call_options");
 
 call_options_input.addEventListener("change", handleInput, false);
