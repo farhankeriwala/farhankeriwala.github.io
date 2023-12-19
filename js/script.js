@@ -138,6 +138,9 @@ function githubPortfolio() {
 function reactWebAppGithub() {
   window.location.href = "https://github.com/farhankeriwala/weather-app";
 }
+function umrahGuide() {
+  window.location.href = "https://github.com/farhankeriwala/umrah-guide-app";
+}
 const call_options_input = document.querySelector("#call_options");
 
 call_options_input.addEventListener("change", handleInput, false);
