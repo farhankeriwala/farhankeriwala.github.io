@@ -154,3 +154,7 @@ function handleInput(e) {
 function thankyou() {
   window.location.href = "..//html/thank_you.html";
 }
+
+function goToGithub(projectName) {
+  window.location.href = `https://github.com/farhankeriwala/${projectName}`;
+}
