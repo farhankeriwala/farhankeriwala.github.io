@@ -131,16 +131,6 @@ function bookCall() {
   window.location.href = "..//html/book_call_form.html";
 }
 
-function githubPortfolio() {
-  window.location.href =
-    "https://github.com/farhankeriwala/farhankeriwala.github.io";
-}
-function reactWebAppGithub() {
-  window.location.href = "https://github.com/farhankeriwala/weather-app";
-}
-function umrahGuide() {
-  window.location.href = "https://github.com/farhankeriwala/umrah-guide-app";
-}
 const call_options_input = document.querySelector("#call_options");
 
 call_options_input.addEventListener("change", handleInput, false);
