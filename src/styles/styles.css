@@ -1,0 +1,68 @@
+/* Underline styles */
+.underline__animation {
+	display: block;
+	position: relative;
+	padding: 0.2em 0;
+}
+
+/* Fade in */
+.underline__animation::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 0.1em;
+	background-color: #000;
+	opacity: 0;
+	transition: opacity 400ms, transform 400ms;
+}
+.dark .underline__animation::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 0.1em;
+	background-color: #fff;
+	opacity: 0;
+	transition: opacity 400ms, transform 400ms;
+}
+
+.underline__animation:hover::after,
+.underline__animation:focus::after {
+	opacity: 1;
+	transform: translate3d(0, 0.2em, 0);
+}
+
+/* Slide in */
+.underline__animation {
+	overflow: hidden;
+}
+
+.underline__animation::after {
+	opacity: 1;
+	transform: translate3d(-100%, 0, 0);
+}
+
+.underline__animation:hover::after,
+.underline__animation:focus::after{
+	transform: translate3d(0, 0, 0);
+}
+
+/* Scale from center */
+/* .underline__animation::after {
+	opacity:1;
+	transform: scale(0);
+	transform-origin: center;
+}
+
+.underline__animation:hover::after,
+.underline__animation:focus::after{
+	transform: scale(1);
+} */
+
+
+/* Project Card Gradient */
+.project-card-gradient{
+	background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);}
